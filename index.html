@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>GeekHub</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+	<div class="header-wrap">
+		<div class="header">
+			<h1><a href="http://geekhub.ck.ua/"><img src="images/geekhub_logo.png" alt="geekhub" /></a></h1>
+
+			<ul class="main-menu">
+                <li><a class="active-menu" href="#">главная</a></li><!-- text-transform, упомяну об этом на уроке -->
+                <li><a href="#">о GeekHub</a></li>
+                <li><a href="#">команда</a></li>
+                <li><a href="#">контакты</a></li>
+            </ul>
+						 
+			 <ul class="social">
+			 	<li class="fb"><a href="#">facebook</a></li>
+                <li class="vk"><a href="#">vk</a></li>
+                <li class="twit"><a href="#">twitter</a></li>
+                <li class="utube"><a href="#">youtube</a></li>
+                <li class="vimeo"><a href="#">vimeo</a></li>
+             </ul> 
+		</div>
+		<div class="register">
+
+            <h2>Реєстрація на другий сезон відкрита!</h2>
+            
+            <a href="#">Зареєструватися</a>
+		</div>
+	</div>
+	<div class="content-wrap">
+		<div id="cbp-fwslider" class="cbp-fwslider">
+				<ul>
+					<li><a href="#"><img src="images/1.jpg" alt="raccoon"/></a></li>
+					<li><a href="#"><img src="images/2.jpg" alt="corgi"/></a></li>
+					<li><a href="#"><img src="images/3.jpg" alt="fennek"/></a></li>
+					<li><a href="#"><img src="images/4.jpg" alt="panda"/></a></li>
+					<li><a href="#"><img src="images/5.jpg" alt="owl"/></a></li>
+				</ul>
+			</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.cbpFWSlider.min.js"></script>
+		<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpFWSlider( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 500,
+					// default transition easing
+					easing : 'ease'
+				}
+				- destroy:
+				$( selector ).cbpFWSlider( 'destroy' );
+				*/
+
+				$( '#cbp-fwslider' ).cbpFWSlider();
+
+			} );
+		</script>
+		<div class="content">
+			<p class="intro"><strong>GeekHub</strong> — це проект, що надає можливість отримати практичні знання та навички в сфері розробки програмного забезпечення. На відміну від традиційної освіти, викладачі GeekHub працюють з новітніми технологіями у провідних софтверних компаніях, тому слухачі GeekHub отримують тільки актуальні знання. Якщо ти зацікавлений — запрошуємо ознайомитись з деталями проекту, та <a href="#">зареєструватися</a> слухачем!</p>
+
+			<h2>наши курсы</h2>
+
+			<ul class="courses">
+				<li>
+					<img src="images/frontend.png" alt="Frontend + CMS" />
+					  <h3><a href="#">Frontend + CMS</a></h3>
+					  <p>Цей курс допоможе вам навчитися створювати веб сайти на основі системи керування контентом. Все, від скінування дизайну до підключення CMS. Цей курс дасть вам чудовий старт для фріланса або роботи в компанії. 
+					  </p>
+				</li>
+				<li>
+					<img src="images/advanced_cms.png" alt="Advanced CMS" />
+					  <h3><a href="#">Advanced CMS</a></h3>
+					  <p>Необхідні та поглибленні знання в системах керування контентом. Якщо ви хочете робити вебсайти як професіонал, цей курс для вас. Особливості різних CMS, використання та написання плагінів та компонентів, інтеграція із соціальними мережами та третьосторонніми сервісами. 
+					  </p>
+				</li>
+				<li>
+					<img src="images/advanced_php.png" alt="Advanced PHP" />
+					  <h3><a href="#">Advanced PHP</a></h3>
+					  <p>Для тих хто хоче розвити свої базові навички в PHP. Курс заглиблюється в вивчення ООП, MVC та фреймворку Symfony. 
+					  </p>
+				</li>
+				<li>
+					<img src="images/basic_java.png" alt="Basic Java" />
+					  <h3><a href="#">Basic Java</a></h3>
+					  <p>Java -- це основа ентерпрайз технологій. Ви ознайомитесь із мовою, базовою структурю SDK основами технологій на Java. Курс вимагає підвищеного рівня самостійної роботи але отриманні знання приносять особливу винагороду в роботі. 
+					  </p>
+				</li>
+				<li>
+					<img src="images/java_for_android.png" alt="Java for Android" />
+					  <h3><a href="#">Java for Android</a></h3>
+					  <p>Розробка під мобільні технології все більше набирає популярності. GeekHub починає із найпопулярнішої відкритої платформи Android.
+					  </p>
+				</li>
+				<li>
+					<img src="images/project_management.png" alt="Project Management " />
+					  <h3><a href="#">Project Management</a></h3>
+					  <p>Щоб стати досвідченим менеджером проектів потрібні роки спроб та помилок. Geekhub дає вам можливість набути практичних навичок та уникнути неприємних ситуацій в реальній роботі. Ми навчимо вас розуміти бізнес, відносини із клієнтами і девелоперами і звичайно методології ведення проектів. 
+					  </p>
+				</li>
+				<li>
+					<img src="images/quality_assurance.png" alt="Quality Assurance" />
+					  <h3><a href="#">Quality Assurance</a></h3>
+					  <p>Контроль якості проектів -- важлива частина процесу розробки. Цей курс навчить вас систематизувати та автоматизувати процес тестування, підвищити якість та швидкість виконання проектів в компанії.
+					  </p>
+				</li>
+				<li>
+					<img src="images/technical_english.png" alt="Technical English" />
+					  <h3><a href="#">Technical English</a></h3>
+					  <p>Нинішні ринкові умови вимагають робочого знання англійської мови і вільним використанням технічних термінів. Немає кращого місця щоб підтягнути ці навички, ніж курс Techical English на GeekHub! Курс викладає Tim Phipps, англієць із науковим ступенем у англійскій літературі. 
+					  </p>
+				</li>
+			</ul>
+
+		</div>
+		
+		<div class="footer">
+			<div class="pre-footer">		<!-- непонятный класс, и зачем ты этот див делаешь? -->
+				<div class="fb">
+					<iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FGeekHub%2F158983477520070&width=276&height=258&colorscheme=light&show_faces=true&header=true&stream=false&show_border=false">This browser does not support inline frames. Sorry.</iframe>
+				</div>
+				
+				<div class="cert">
+					<a href="#" ><img src="images/certificates.png" alt="Сертифікати" /><span>Реєстр сертифікатів</span></a>
+				</div>
+				
+				<div class="sponsors">
+					<h4>наши спонсоры</h4>
+					<ul>
+						<li><a href="#"><img src="images/dim_evangelie.png" alt="Дім Євангелія" /></a></li>
+						<li><a href="#"><img src="images/master_of_code.png" alt="Master Of Code" /></a></li>
+						<li><a href="#"><img src="images/red_s.png" alt="Red S" /></a></li>
+						<li><a href="#"><img src="images/orange_y.png" alt="Orange Y" /></a></li>
+						<li><a href="#"><img src="images/green_sponsor.png" alt="Green Sponsor" /></a></li>
+					</ul>
+				</div>
+			
+			</div>
+			
+			<ul class="bottom-menu">
+                <li><a class="active-menu" href="#">главная</a></li>
+                <li><a href="#">о GeekHub</a></li>
+                <li><a href="#">команда</a></li>
+                <li><a href="#">контакты</a></li>
+            </ul>
+            
+            <span class="copyright">&copy; Copyright 2011</span>
+
+		</div>
+	</div>
+
+</body>
+</html>
